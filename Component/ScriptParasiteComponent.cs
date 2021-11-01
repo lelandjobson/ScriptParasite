@@ -248,7 +248,7 @@ namespace StudioAvw.Gh.Parasites.Component
             var rsLines = runscript.Split(new[] {Environment.NewLine}, StringSplitOptions.None);
             runscript = string.Join(Environment.NewLine, rsLines.Skip(2).Take(rsLines.Length - 3).ToList());
             
-            scriptObject.SourceCodeChanged(new GUI.Script.Cs.GH_ScriptEditor(GUI.Script.Cs.GH_ScriptLanguage.CS));
+            scriptObject.SourceCodeChanged(new GH_ScriptEditor(GH_ScriptLanguage.CS));
             var additional = GetRegion(fileContent, "Additional");
             scriptObject.ScriptSource.ScriptCode = runscript;
             scriptObject.ScriptSource.AdditionalCode = additional;
