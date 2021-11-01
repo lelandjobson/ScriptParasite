@@ -15,7 +15,7 @@ namespace StudioAvw.Gh.Parasites.Template
     /// Class to produce the template output
     /// </summary>
     
-    #line 1 "C:\development\ScriptParasite\Template\ProjectOutput.tt"
+    #line 1 "C:\Users\Cityzenith\Documents\GitHub\ScriptParasite\Template\ProjectOutput.tt"
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplating", "16.0.0.0")]
     public partial class ProjectOutput : ProjectOutputBase
     {
@@ -27,7 +27,7 @@ namespace StudioAvw.Gh.Parasites.Template
         {
             this.Write(@"<Project Sdk=""Microsoft.NET.Sdk"">
   <PropertyGroup>
-    <TargetFramework>net452</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <LangVersion>5</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=""'$(Configuration)|$(Platform)'=='Debug|AnyCPU'"">
@@ -36,7 +36,7 @@ namespace StudioAvw.Gh.Parasites.Template
     <Reference Include=""GH_IO"">
       <HintPath>");
             
-            #line 12 "C:\development\ScriptParasite\Template\ProjectOutput.tt"
+            #line 12 "C:\Users\Cityzenith\Documents\GitHub\ScriptParasite\Template\ProjectOutput.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(GrasshopperIoPath));
             
             #line default
@@ -44,7 +44,7 @@ namespace StudioAvw.Gh.Parasites.Template
             this.Write("</HintPath>\r\n      <Private>False</Private>\r\n    </Reference>\r\n    <Reference Inc" +
                     "lude=\"Grasshopper\">\r\n      <HintPath>");
             
-            #line 16 "C:\development\ScriptParasite\Template\ProjectOutput.tt"
+            #line 16 "C:\Users\Cityzenith\Documents\GitHub\ScriptParasite\Template\ProjectOutput.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(GrasshopperPath));
             
             #line default
@@ -52,7 +52,7 @@ namespace StudioAvw.Gh.Parasites.Template
             this.Write("</HintPath>\r\n      <Private>False</Private>\r\n    </Reference>\r\n    <Reference Inc" +
                     "lude=\"RhinoCommon\">\r\n      <HintPath>");
             
-            #line 20 "C:\development\ScriptParasite\Template\ProjectOutput.tt"
+            #line 20 "C:\Users\Cityzenith\Documents\GitHub\ScriptParasite\Template\ProjectOutput.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(RhinoCommonPath));
             
             #line default
