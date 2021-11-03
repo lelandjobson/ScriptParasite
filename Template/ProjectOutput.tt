@@ -20,5 +20,17 @@
       <HintPath><#= RhinoCommonPath #></HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath><#= RevitAPIUIPath #></HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPI">
+      <HintPath><#= RevitAPIPath #></HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RhinoInside.Revit">
+      <HintPath><#= RhinoInsideRevitPath #></HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
 </Project>

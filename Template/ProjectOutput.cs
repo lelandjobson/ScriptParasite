@@ -57,6 +57,30 @@ namespace StudioAvw.Gh.Parasites.Template
             
             #line default
             #line hidden
+            this.Write("</HintPath>\r\n      <Private>False</Private>\r\n    </Reference>\r\n    <Reference Inc" +
+                    "lude=\"RevitAPIUI\">\r\n      <HintPath>");
+            
+            #line 24 "C:\Users\Cityzenith\Documents\GitHub\ScriptParasite\Template\ProjectOutput.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(RevitAPIUIPath));
+            
+            #line default
+            #line hidden
+            this.Write("</HintPath>\r\n      <Private>False</Private>\r\n    </Reference>\r\n    <Reference Inc" +
+                    "lude=\"RevitAPI\">\r\n      <HintPath>");
+            
+            #line 28 "C:\Users\Cityzenith\Documents\GitHub\ScriptParasite\Template\ProjectOutput.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(RevitAPIPath));
+            
+            #line default
+            #line hidden
+            this.Write("</HintPath>\r\n      <Private>False</Private>\r\n    </Reference>\r\n    <Reference Inc" +
+                    "lude=\"RhinoInside.Revit\">\r\n      <HintPath>");
+            
+            #line 32 "C:\Users\Cityzenith\Documents\GitHub\ScriptParasite\Template\ProjectOutput.tt"
+            this.Write(this.ToStringHelper.ToStringWithCulture(RhinoInsideRevitPath));
+            
+            #line default
+            #line hidden
             this.Write("</HintPath>\r\n      <Private>False</Private>\r\n    </Reference>\r\n  </ItemGroup>\r\n</" +
                     "Project>");
             return this.GenerationEnvironment.ToString();

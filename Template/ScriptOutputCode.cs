@@ -28,6 +28,7 @@ namespace StudioAvw.Gh.Parasites.Template
             "System.Drawing",
             "System.Reflection",
             "System.Runtime.InteropServices"
+            // Add in autodesk using statements here
         };
     }
 }

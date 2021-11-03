@@ -626,8 +626,12 @@ indent_size = 2";
             {
                 RhinoCommonPath = System.Reflection.Assembly.GetAssembly(typeof(RhinoApp)).Location,
                 GrasshopperPath = System.Reflection.Assembly.GetAssembly(typeof(GH_Component)).Location,
-                GrasshopperIoPath = System.Reflection.Assembly.GetAssembly(typeof(GH_IO.GH_ISerializable)).Location
+                GrasshopperIoPath = System.Reflection.Assembly.GetAssembly(typeof(GH_IO.GH_ISerializable)).Location,
+                RevitAPIPath = System.Reflection.Assembly.GetAssembly(typeof(Autodesk.Revit.DB.Element)).Location,
+                RevitAPIUIPath = System.Reflection.Assembly.GetAssembly(typeof(Autodesk.Revit.UI.ComboBox)).Location,
+                RhinoInsideRevitPath = System.Reflection.Assembly.GetAssembly(typeof(RhinoInside.Revit.Revit)).Location,
             };
+            // C:\Program Files\Autodesk\Revit 2020 
             File.WriteAllText(file, output.TransformText());
         }
     }
